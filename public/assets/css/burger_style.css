@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(238, 191, 103);
+}
+
+#img{
+    background-image: url("../images/149372.png");
+    height: 100px;
+    width: 125px;
+    background-position: center;
+  background-size: cover;
+  align-self: center;
+  text-align: center;
+  margin: auto;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+}
+form{
+    display: block;
+    margin: auto;
+}
+textarea{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    width: 25vw;
+}
+input{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
