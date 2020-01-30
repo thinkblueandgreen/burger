@@ -1,14 +1,13 @@
-<h1>Whats your Burger!</h1>
-<div id="img">
-  
+<h1>Burger App</h1>
+<div id="img" >
+  <img src="/assets/img/burger-clip-art.jpg" alt="Burger" style="margin:auto; width:100px; display:block">
 </div>
 
 <form class="form">
-  <textarea placeholder="What burger do you like?" style="height: 160px" id="message" name="name"></textarea>
+  <textarea placeholder="Name the burger you like to have " style="height: 160px" id="message" name="name"></textarea>
   <input type="submit" value="submit">
 
 </form>
-
 
 <div id= "container">
 
@@ -17,7 +16,7 @@
   {{#if devoured}}
   {{else}}
     <li>
-      <p class= "burger" status={{id}} >name: {{burger_name}}</p>
+      <p class= "burger" status={{id}} >Burger: {{burger_name}}</p>
       <button class="devoure" status= {{id}}>Devoure it</button>
     </li>
     {{/if}}
@@ -28,7 +27,7 @@
   {{#each burger}}
   {{#if devoured}}
     <li>
-      <p>name: {{burger_name}}</p>
+      <p>Burger: {{burger_name}}</p>
       
     </li>
     {{/if}}
